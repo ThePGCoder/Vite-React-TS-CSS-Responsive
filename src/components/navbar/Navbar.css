@@ -1,0 +1,72 @@
+@media only screen and (max-width: 600px) {
+
+  .navbar {
+      height: 50px;
+    }
+
+    button {
+      position: absolute;
+      top: 10px;
+      padding-left: 12px;
+      font-size: 26px;
+      color: black;
+      visibility: visible;
+      background-color: transparent;
+      border: none;
+    }
+
+    button:hover {
+      color:rgb(34, 101, 177);
+    }
+
+    .logo-mobile {
+      position: absolute;
+      left: 50px;
+      top: 12px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .logo {
+      visibility: visible;
+    }
+    
+    .navbar-icons { 
+      top: 10px;
+    }
+
+}
+@media screen and (min-width:600px){
+
+  .navbar {
+      margin-left: 240px;
+      height: 80px;
+    }
+   
+    .menuButton {
+      visibility: hidden;
+    }
+
+    .logo-mobile {
+      visibility: hidden;
+    }
+    .navbar-icons {   
+      top: 25px; 
+    }
+}
+
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid;
+  border-color: #E2E8F0;
+}
+
+.navbar-icons {
+  position: absolute;
+  right: 10px;
+}
+
+.img-avatar {
+  border-radius: 50%;
+  background-color: rgb(34, 101, 177);
+}
